@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from './page.module.css';
 
 import Meals from '@/components/meals';
-import MealsFallback from '@/components/meals/fallback';
+import Fallback from '@/components/fallback';
 
 export default function MealsPage() {
 	return (
@@ -23,7 +23,7 @@ export default function MealsPage() {
 				</p>
 			</header>
 			<main className={styles.main}>
-				<Suspense fallback={MealsFallback()}>
+				<Suspense fallback={Fallback()}>
 					<Meals />
 				</Suspense>
 			</main>
