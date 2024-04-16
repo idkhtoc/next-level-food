@@ -4,7 +4,7 @@ import styles from './page.module.css';
 
 import HomeSlideshow from '@/components/home-slideshow';
 
-export default function Home() {
+export default function HomePage() {
 	return (
 		<>
 			<header className={styles.header}>

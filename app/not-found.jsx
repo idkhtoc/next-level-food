@@ -1,10 +1,10 @@
-export default function NotFound() {
+import NotFound from '@/components/not-found';
+
+export default function HomePageNotFound() {
 	return (
-		<main className='not-found'>
-			<h1>Not found</h1>
-			<p>
-				Unfortunately, we could not find the requested page or resource.
-			</p>
-		</main>
+		<NotFound
+			title='Not found'
+			description='Unfortunately, we could not find the requested page or resource.'
+		/>
 	);
 }
