@@ -1,13 +1,13 @@
 import styles from './index.module.css';
 
-import MealItem from './meal-item';
+import MealsItem from '../item';
 
 export default function MealsGrid({ meals }) {
 	return (
 		<ul className={styles.meals}>
 			{meals.map((meal) => (
 				<li key={meal.id}>
-					<MealItem {...meal} />
+					<MealsItem {...meal} />
 				</li>
 			))}
 		</ul>

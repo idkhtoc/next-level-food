@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import styles from './index.module.css';
 
-export default function MealItem({ title, slug, image, summary, creator }) {
+export default function MealsItem({ title, slug, image, summary, creator }) {
 	return (
 		<article className={styles.meal}>
 			<header>
