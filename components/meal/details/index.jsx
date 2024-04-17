@@ -16,7 +16,11 @@ export default function MealDetails({
 		<>
 			<header className={styles.header}>
 				<div className={styles.image}>
-					<Image src={image} alt={title} fill />
+					<Image
+						src={`${process.env.IMAGES_URL}${image}`}
+						alt={title}
+						fill
+					/>
 				</div>
 				<div className={styles.headerText}>
 					<h1>{title}</h1>

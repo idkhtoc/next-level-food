@@ -8,7 +8,11 @@ export default function MealsItem({ title, slug, image, summary, creator }) {
 		<article className={styles.meal}>
 			<header>
 				<div className={styles.image}>
-					<Image src={image} alt={title} fill />
+					<Image
+						src={`${process.env.IMAGES_URL}${image}`}
+						alt={title}
+						fill
+					/>
 				</div>
 				<div className={styles.headerText}>
 					<h2>{title}</h2>
