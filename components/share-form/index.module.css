@@ -30,3 +30,42 @@
 	outline-color: #f99f2a;
 	background-color: #1f252d;
 }
+
+.row {
+	display: flex;
+	gap: 1rem;
+}
+
+.row p {
+	width: 100%;
+}
+
+.actions {
+	text-align: right;
+}
+
+.actions button {
+	border: 0;
+	padding: 0.75rem 2rem;
+	background: linear-gradient(90deg, #f9572a, #ff9b05);
+	border: none;
+	color: #ffffff;
+	border-radius: 2px;
+	cursor: pointer;
+	font: inherit;
+	font-size: 1.25rem;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.actions button:hover,
+.actions button:focus {
+	background: linear-gradient(90deg, #fd4715, #f9b241);
+}
+
+.actions button:disabled,
+.actions button:hover:disabled,
+.actions button:focus:disabled {
+	background: #ccc;
+	color: #979797;
+	cursor: not-allowed;
+}
