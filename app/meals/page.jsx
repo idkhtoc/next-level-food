@@ -6,6 +6,12 @@ import styles from './page.module.css';
 import Meals from '@/components/meals';
 import Fallback from '@/components/fallback';
 
+export const metadata = {
+	title: 'Meals',
+	description:
+		'Browse the delicious meals, shared by a food-loving community.',
+};
+
 export default function MealsPage() {
 	return (
 		<>
