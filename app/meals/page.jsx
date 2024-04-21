@@ -12,6 +12,8 @@ export const metadata = {
 		'Browse the delicious meals, shared by a food-loving community.',
 };
 
+export const revalidate = 60;
+
 export default function MealsPage() {
 	return (
 		<>
