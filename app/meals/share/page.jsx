@@ -2,6 +2,11 @@ import styles from './page.module.css';
 
 import ShareForm from '@/components/share-form';
 
+export const metadata = {
+	title: 'Share Meals in Foodies Community - Recipies | Delicious',
+	description: 'Share your delicious meals with a food-loving community.',
+};
+
 export default function ShareMealPage() {
 	return (
 		<>

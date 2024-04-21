@@ -5,7 +5,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import MainHeader from '@/components/main-header';
 
 export const metadata = {
-	title: 'NextLevel Food',
+	title: 'Next Level Food For Foodies - Delicious | Look and Share',
 	description: 'Delicious meals, shared by a food-loving community.',
 };
 

@@ -6,6 +6,11 @@ import mealIcon from '@/assets/icons/meal.png';
 import communityIcon from '@/assets/icons/community.png';
 import eventsIcon from '@/assets/icons/events.png';
 
+export const metadata = {
+	title: 'Explore Foodies Community - Open | Foodies Community',
+	description: 'Explore the foodies community and find out more.',
+};
+
 export default function CommunityPage() {
 	return (
 		<>
