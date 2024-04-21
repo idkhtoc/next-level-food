@@ -7,7 +7,7 @@ import Meals from '@/components/meals';
 import Fallback from '@/components/fallback';
 
 export const metadata = {
-	title: 'Meals',
+	title: 'Meals Shared by Foodies - Next Level Food',
 	description:
 		'Browse the delicious meals, shared by a food-loving community.',
 };
