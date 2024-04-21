@@ -1,12 +1,13 @@
-import { Suspense } from 'react';
+import { notFound } from 'next/navigation';
 
-import { getMeal } from '@/lib/meals';
+import { getCachedMeal } from '@/lib/meals';
 
-import Fallback from '@/components/fallback';
-import Meal from '@/components/meal';
+import MealDetails from '@/components/meal-details';
 
 export async function generateMetadata({ params }) {
-	const meal = getMeal(params.mealSlug);
+	const meal = await getCachedMeal(params.mealSlug);
+
+	if (!meal) notFound();
 
 	return {
 		title: meal.title,
@@ -14,10 +15,10 @@ export async function generateMetadata({ params }) {
 	};
 }
 
-export default function MealDetailsPage({ params }) {
-	return (
-		<Suspense fallback={Fallback()}>
-			<Meal slug={params.mealSlug} />
-		</Suspense>
-	);
+export default async function MealDetailsPage({ params }) {
+	const meal = await getCachedMeal(params.mealSlug);
+
+	if (!meal) notFound();
+
+	return <MealDetails {...meal} />;
 }

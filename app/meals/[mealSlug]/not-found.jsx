@@ -7,10 +7,12 @@ import NotFound from '@/components/not-found';
 export default function MealDetailsPageNotFound() {
 	const pathname = usePathname();
 
+	const slug = pathname.split('/').pop();
+
 	return (
 		<NotFound
-			title={`${pathname.match(/([^/]+)$/g)} was not found`}
-			description='Unfortunately, we could not find the requested meal'
+			title={`Meal was not found`}
+			description={`Unfortunately, we could not find the ${slug}`}
 		/>
 	);
 }
