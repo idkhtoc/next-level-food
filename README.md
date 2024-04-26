@@ -46,6 +46,10 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 5. Push to the branch
 6. Create a new Pull Request.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Contact
 
 For any inquiries or feedback, please contact me via email: oleksandr.yanov.eu@gmail.com
