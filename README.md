@@ -1,6 +1,6 @@
 <h1><a href="https://next-level-foodies-sigma.vercel.app/" target="_blank">Next Level Food</a><h1/>
 
-![Next Level Food](assets/burger.jpg)
+<img src="assets/logo.png" alt="Next Level Food" width="200"/>
 
 ## Description
 
@@ -48,4 +48,4 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 
 ## Contact
 
-For any inquiries or feedback, please contact [Yanov Oleksandr](mailto:oleksandr.yanov.eu@gmail.com)
+For any inquiries or feedback, please contact me via email: oleksandr.yanov.eu@gmail.com
