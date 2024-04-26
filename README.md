@@ -30,10 +30,17 @@ Next Level Food is a web application built with Next.js that aims to revolutioni
 	`cd next-level-food`
 3. Install dependencies:
 	`npm i`
-4. Create a `.env.local` file to store private constants for AWS and MongoDB
-5. Start the development server:
+4. Create a `.env.local` file to store private constants:
+	- AWS_REGION= Your S3 region
+	- IMAGES_BUCKET= name of the AWS S3 bucket
+	- IMAGES_DOMAIN=$IMAGES_BUCKET.s3.$AWS_REGION.amazonaws.com
+	- IMAGES_URL=https://$IMAGES_DOMAIN/
+	- AWS_ACCESS_KEY_ID= Access key to the S3 bucket
+	- AWS_SECRET_ACCESS_KEY= Secret access key to the S3 bucket
+	- DATABASE_URL= MongoDB url
+6. Start the development server:
 	`npm run dev`
-6. Open your browser and visit `http://localhost:3000` to view the application.
+7. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Contributing
 
