@@ -24,7 +24,7 @@ Next Level Food is a web application built with Next.js that aims to help people
 
 ## Installation
 
-1. Clone the repository `git clone https://github.com/your-username/next-level-food.git`
+1. Clone the repository `git clone https://github.com/idkhtoc/next-level-food.git`
 2. Navigate to the project directory `cd next-level-food`
 3. Install dependencies `npm install`
 4. Create a `.env.local` file to store private constants according to this [TEMPLATE](.env.template)
