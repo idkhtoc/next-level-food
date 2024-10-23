@@ -27,11 +27,6 @@ export default function MainHeader() {
 						<li>
 							<NavLink href='/meals'>Browse Meals</NavLink>
 						</li>
-						<li>
-							<NavLink href='/community'>
-								Foodies Community
-							</NavLink>
-						</li>
 					</ul>
 				</nav>
 			</header>

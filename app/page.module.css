@@ -29,7 +29,7 @@
 }
 
 .cta {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	display: flex;
 	gap: 1rem;
 }
@@ -43,24 +43,13 @@
 	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
+	transition: transform 0.5s ease;
 }
 
 .cta a:hover,
 .cta a:active {
-	background: linear-gradient(90deg, #fd4715, #f9b241);
-}
-
-.cta a:first-child {
-	background: transparent;
-	font-weight: normal;
-	color: #ff9b05;
-	padding-left: 0;
-}
-
-.cta a:first-child:hover,
-.cta a:first-child:active {
-	background: transparent;
-	color: #f9b241;
+	cursor: pointer;
+	transform: scale(1.1);
 }
 
 .main section {
